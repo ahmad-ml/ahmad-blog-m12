@@ -1,15 +1,13 @@
-import BlogPostPage from "./blog/[id]/page";
+import Page from "./blog/page";
 
 export default function Home() {
 return (
   <div>
-    <h1>My Homepage</h1>
-    <p>My homepage content.</p>
-  
+    <h1>Ahmad Blog</h1>
+    <p>Ostad Assignment</p>
 
-    
-
-  </div>
+            <Page />
+    </div>
 )
 
 

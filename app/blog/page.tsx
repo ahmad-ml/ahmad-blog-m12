@@ -15,13 +15,13 @@ export default async function Page() {
       {posts.map((post:Post) => (
         <Link href={`/blog/${post.id}`} key={post.id}>
           <h2>{post.title}</h2>
-          <Image
-            src={post.img}
-            alt={post.title}
-            width={50}
-            height={50}
-            layout="responsive"
-          />
+  <Image
+  src={post.img}
+  alt={post.title}
+  width={200}  // Adjust this width to your desired value
+  height={120} // Adjust this height to your desired value
+
+/>
           <p>{post.short}</p>
         </Link>
 
