@@ -3,12 +3,12 @@ export default function Footer() {
         backgroundColor: "#333",
         color: "#fff",
         padding: "20px 0",
-        textAlign: "center",
+        textAlign: "center" as const,
     };
 
     return (
         <footer style={footerStyle}>
-            <p>Copyritht @ 2023</p>
+            <p>Copyright @ 2023</p>
         </footer>
     );
 }
